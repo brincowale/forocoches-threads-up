@@ -8,6 +8,7 @@ This script is designed to keep a thread more visible. Using spintax the script 
 
 ## Config file
 The configuration file has three sections:
+
 1. threads
 * name: is not used, only for reference
 * last_post_id: empty by default, is used by the script the first time a message was published on this thread
