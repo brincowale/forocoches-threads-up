@@ -24,8 +24,9 @@ The configuration file has three sections:
 
 See config_example.json for reference.
 
- ## License
- The MIT License (MIT)
+## License
+ 
+The MIT License (MIT)
 
 Copyright (c) <2016> <brincowale>
 
