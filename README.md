@@ -9,18 +9,18 @@ This script is designed to keep a thread more visible. Using spintax the script 
 ## Config file
 The configuration file has three sections:
 
-1. threads
-* name: is not used, only for reference
-* last_post_id: empty by default, is used by the script the first time a message was published on this thread
-* thread_id: the id of the current thread
-* words_up_thread: defines what group contains the used words
-* account: the username of your account
+1. threads  
+**name**: is not used, only for reference  
+**last_post_id**: empty by default, is used by the script the first time a message was published on this thread  
+**thread_id**: the id of the current thread  
+**words_up_thread**: defines what group contains the used words  
+**account**: the username of your account  
 
-2. words_up_thread
-* default: the default group of words in spintax format
+2. words_up_thread  
+**default**: the default group of words in spintax format  
 
-3. forocoches_accounts
-* username: the key is your username, and the value is your password
+3. forocoches_accounts  
+**username**: the key is your username, and the value is your password  
 
 See config_example.json for reference.
 
