@@ -1,0 +1,17 @@
+{
+  "threads": [
+    {
+      "name": "thread_1",
+      "last_post_id": "",
+      "thread_id": "",
+      "words_up_thread": "default",
+      "account": "username"
+    }
+  ],
+  "words_up_thread": {
+    "default": "{UP|good}"
+  },
+  "forocoches_accounts": {
+    "username": "password"
+  }
+}

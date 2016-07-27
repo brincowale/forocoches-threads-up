@@ -1,0 +1,24 @@
+{
+  "threads": [
+    {
+      "name": "ebay",
+      "last_post_id": "",
+      "thread_id": "3545733",
+      "words_up_thread": "default",
+      "account": "brincowale"
+    }, {
+      "words_up_thread": "default",
+      "name": "computers",
+      "last_post_id": "",
+      "thread_id": "4963884",
+      "account": "brincowave"
+    }
+  ],
+  "words_up_thread": {
+    "default": "{UP|good}"
+  },
+  "forocoches_accounts": {
+    "brincowale": "mypassword123",
+    "brincowave": "myseccondaccountpass"
+  }
+}
