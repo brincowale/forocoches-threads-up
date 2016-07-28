@@ -72,11 +72,14 @@ class ForocochesAPI:
         return False
 
     def delete_post(self, post_id):
-        g = self.g
-        g.go('http://m.forocoches.com/foro/editpost.php?do=editpost&p=' + post_id)
-        g.doc.set_input('deletepost', 'delete')
-        g.doc.submit()
-
+        try:
+            g = self.g
+            g.go('http://m.forocoches.com/foro/editpost.php?do=editpost&p=' + post_id)
+            g.doc.set_input('deletepost', 'delete')
+            g.doc.submit()
+            return True
+        except:
+            return False
 
 class DuplicatedMessageError(LookupError):
     """raise this when a message is a duplicated of other in less than 5 minutes"""
