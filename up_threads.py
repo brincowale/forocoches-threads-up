@@ -20,11 +20,11 @@ class UpThreads:
         return random_int
 
     def publish_message(self, message, thread_id):
-        message = spintax.parse(message)[0]
-        self.fc.publish_message_automatically(thread_id, message)
+        message = spintax.spin(message)
+        self.fc.publish_message(thread_id, message)
 
     def update_last_post(self, old_post_id, thread):
-        url = self.fc.g.response.url
+        url = self.fc.g.doc.url
         new_post_id = re.findall(r"p=([0-9]*)", url)[0]
         if old_post_id != "":
             self.fc.delete_post(old_post_id)
