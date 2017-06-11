@@ -46,7 +46,6 @@ class ForocochesAPI:
             raise TooManyMessagesError('Solo puedes enviar mensajes cada 30 segundos')
         elif g.doc.text_search(u'Los siguientes errores ocurrieron al enviar este mensaje')\
                 or g.doc.text_search(u'ForoCoches - Responder al Tema'):
-            print(g.doc.body)
             raise PublishError('Ha ocurrido un error al publicar el mensaje')
         # parameter p is the post id, only appears if the message was published
         elif '?p=' in g.doc.url or '&p=' in g.doc.url:
